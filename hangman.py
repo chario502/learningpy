@@ -48,3 +48,6 @@ while not gameOver:
     if "_" not in dWord:
         print("Congrats, you guessed the word " + sWord)
         gameOver = True
+    elif "_" in dWord:
+        print ("You ran out of guesses!! The word was " + sWord)
+        gameOver = True
